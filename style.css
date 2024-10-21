@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-image: url(arab_tile.png);
+}
+
+header {
+  max-width: 1000px;
+  height: 100px;
+  margin: auto;
+  background-color: #abcf00;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  width: 150px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: 200px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+section {
+  display: flex;
+  max-width: 1000px;
+  margin: auto;
+  background-color: white;
+}
+
+.box1 {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  padding: 10px;
+}
+
+.box2 {
+  flex: 3;
+  padding: 10px;
+}
+
+.box2 img {
+  width: 50%;
+  float: left;
+  padding-right: 15px;
+  padding-bottom: 10px;
+}
+
+p {
+  text-align: justify;
+}
+
+h1 {
+  font-size: 1.7rem;
+}
+
+.button1 {
+  text-align: right;
+}
+
+button {
+  background-color: #abcf00;
+  width: 100px;
+  padding: 10px;
+  color: white;
+  border: none;
+}
+
+h5 {
+  text-align: center;
+  font-weight: 300;
+  margin: 10px;
+}
